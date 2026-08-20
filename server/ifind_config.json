@@ -1,0 +1,3 @@
+{
+  "auth_token": "在这里填入你的 iFinD MCP token，或用环境变量 IFIND_TOKEN 注入（推荐）"
+}
