@@ -1,0 +1,5 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+server/ifind_config.json
