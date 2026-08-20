@@ -1,0 +1,12 @@
+{
+  "name": "guxi-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "股析后端桥接服务（Node 内置模块，无 npm 依赖；Python 用于策略沙箱与过拟合检验）",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
