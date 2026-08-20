@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: guxi-backend
+    env: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: IFIND_TOKEN
+        sync: false
+      - key: PYTHON
+        value: /usr/local/bin/python
+      - key: PORT
+        value: "3000"
+    healthCheckPath: /api/health
